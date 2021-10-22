@@ -1,0 +1,50 @@
+td {
+  cursor: pointer;
+}
+
+.liked-container {
+  width: 20%;
+  position: fixed;
+  margin-left: 50%;
+}
+
+body {
+  display: flex;
+  margin: 0rem 5rem;
+  font-family: Consolas, monaco, monospace;
+}
+
+.table-container {
+  margin-left: 10rem;
+}
+
+table {
+  width: 500px;
+}
+
+th {
+  text-align: left;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.list-nav {
+  margin-bottom: 1rem;
+}
+
+a {
+  margin-right: 0.5rem;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+ul {
+  cursor: pointer;
+}
